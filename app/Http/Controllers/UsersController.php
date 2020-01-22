@@ -23,7 +23,7 @@ class UsersController extends Controller
 
     function delete($id)
     {
-      $user =  BlogUser::where('user_id',Auth::user()->id)->delete();
+      $user =  BlogUser::where('user_id',Auth::user()->id)->where('blog_id',$id)->delete();
       return back();
     }
 }

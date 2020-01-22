@@ -1,5 +1,19 @@
 @extends('layouts.app')
+<style>
+               html, body {
+                background-color: #ffffff;
+                color: #ffffff;
+                background:url(https://blamethemonkey.com/wp-content/uploads/2013/06/Elia-Locardi-Travel-Photography-The-Path-Of-Ages-Petra-Jordan-1280-WM-sRGB-1280x640.jpg) no-repeat;
+                background-size:100% 100%;
+                background-position:0 0;
+                height: 100vh;
+                margin: 0;
 
+            }
+      h2 {
+  cursor: pointer;
+}
+   </style>
 @section('content')
 <div class="container">
     <div class="row justify-content-center">

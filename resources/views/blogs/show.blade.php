@@ -10,8 +10,6 @@
 
             <div class="pull-left">
 
-                <h2> Show Blog</h2>
-
             </div>
 
             <div class="pull-right">
@@ -51,20 +49,20 @@
 
             <div class="form-group">
 
-                <strong>Body:</strong>
+                <strong>Desciption:</strong>
 
                 {{ $blog->body }}
 
             </div>
             <hr>
-            <h4>Display Comments</h4>
+            <p style="font-weight:bold">Comments</p>
             <hr>
             @include('partials._comment_replies', ['comments' => $blog->comments, 'blog_id' => $blog->id])
-            <h4>Add comment</h4>
+            <p style="font-weight:bold">Add comment</p>
             <form method="post" action="{{ route('comment.add') }}">
                 @csrf
                 <div class="form-group">
-                    <input type="text" name="comment_body" class="form-control" />
+                    <input type="text" name="comment_body" class="form-control" style="width:30% ; height:20%"/>
                     <input type="hidden" name="blog_id" value="{{ $blog->id }}" />
                     
                 </div>

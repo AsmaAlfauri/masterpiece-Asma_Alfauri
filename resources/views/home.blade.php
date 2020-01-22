@@ -13,10 +13,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v3.8.5">
-    <title>Album example · Bootstrap</title>
+    <title>Travel Jo</title>
     {{-- <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet"> --}}
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
@@ -157,8 +154,17 @@
 
 
     <div class="album py-5 bg-light">
-        <div class="container">
+        <div class="container" >
+<div class="welcome_home">
+<img src="https://www.bookingjordan.com/uploads/images/blog/34401_Dead-Sea-Jordan.jpg"
+style="width:100%;height:300px;margin-bottom:2%"
+>
 
+<h2 style="text-align:center;font-size:30px;font-weight:bold">Welcome To Jordan</h2>
+<h3 style="text-align:center;font-size:15px;font-weight:bold;margin:3%">
+TravelJo It is a tourist site that introduces tourist sites in Jordan, helps the tourist to know the most prominent and important places and know its geographical location, a site whose main objective is to promote tourist places and highlight Jordan in the best way
+</h3>
+</div>
             <div class="row">
 
                 @foreach ($blogs as $blog)

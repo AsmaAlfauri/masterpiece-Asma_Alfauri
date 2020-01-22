@@ -22,7 +22,7 @@
                 <br>
                 <br>
 
-                <h2>Project Asma</h2>
+                <h2>Travel Jo</h2>
 
             </div>
 

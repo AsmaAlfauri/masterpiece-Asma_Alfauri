@@ -12,7 +12,7 @@
 
             <div class="pull-left">
 
-                <h2>Edit Cmment</h2>
+                <h2>Edit Comment</h2>
 
             </div>
 
@@ -57,7 +57,7 @@
 
         <div class="form-group">
             <label>Comment</label>
-            <input type="text" name="body" class="form-control" placeholder="Comment .." value=" {{ $comment->body }}">
+            <input style="width:30% ; height:20%" type="text" name="body" class="form-control" placeholder="Comment .." value=" {{ $comment->body }}">
 
             @if($errors->has('body'))
                 <div class="text-danger">

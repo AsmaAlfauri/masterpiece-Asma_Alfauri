@@ -64,7 +64,7 @@
 
                     <strong>Title:</strong>
 
-                    <input type="text" name="title" value="{{ $blog->title }}" class="form-control" placeholder="Title">
+                    <input style="width:30% ; height:20%" type="text" name="title" value="{{ $blog->title }}" class="form-control" placeholder="Title">
 
                 </div>
 
@@ -100,7 +100,7 @@
 
                     <strong>Gps:</strong>
 
-                    <textarea class="form-control" style="height:150px" name="gps" placeholder="Gps"></textarea>
+                    <textarea class="form-control" style="height:50px" name="gps" placeholder="Gps"></textarea>
 
                 </div>
 
@@ -110,7 +110,7 @@
                 <div class="form-group">
                     <strong>Image</strong>
                 <div class="custom-file">
-                    <input name="image" class="custom-file-input" type="file">
+                    <input name="image" class="custom-file-input" type="file" style="width:30% ; height:20%">
                     <label  class="custom-file-label">Choose photo</label>
                 </div>
                 </div>

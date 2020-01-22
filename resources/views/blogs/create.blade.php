@@ -60,7 +60,7 @@
 
                     <strong>Title:</strong>
 
-                    <input type="text" name="title" class="form-control" placeholder="Title">
+                    <input type="text" name="title" class="form-control" placeholder="Title" style="width:50% ; height:20%">
 
                 </div>
 
@@ -97,7 +97,7 @@
 
                     <strong>Gps:</strong>
 
-                    <textarea class="form-control" style="height:150px" name="gps" placeholder="Gps"></textarea>
+                    <textarea class="form-control" style="height:50px" name="gps" placeholder="Gps"></textarea>
 
                 </div>
 
@@ -107,8 +107,8 @@
                 <div class="form-group">
                     <strong>Image</strong>
                 <div class="custom-file">
-                    <input name="image" class="custom-file-input" type="file">
-                    <label  class="custom-file-label">Choose photo</label>
+                    <input name="image" class="custom-file-input" type="file" style="width:30% ; height:50%">
+                    <label  class="custom-file-label" >Choose photo</label>
                 </div>
                 </div>
             </div>

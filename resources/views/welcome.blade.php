@@ -12,10 +12,11 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
+                background-color: #ffffff;
+                color: #ffffff;
+                background:url(https://blamethemonkey.com/wp-content/uploads/2013/06/Elia-Locardi-Travel-Photography-The-Path-Of-Ages-Petra-Jordan-1280-WM-sRGB-1280x640.jpg) no-repeat;
+                background-size:100% 100%;
+                background-position:0 0;
                 height: 100vh;
                 margin: 0;
 
@@ -47,22 +48,36 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 90px;
+                background-color:rgb(98,24,1,0.5);
+                font-weight:bold;
+                margin-left:20%;
+                margin-right:20%;
+            }
+            .sub_text{
+                font-size: 20px;
+                background-color:rgb(98,24,1,0.5);
+                font-weight:bold;
+                text-align:center;
+                margin-left:20%;
+                margin-right:20%;
+                padding-top:3%;
+                padding-bottom:3%
+                /* margin:20%; */
+                /* margin-top:10%; */
             }
 
             .links > a {
-                color: #636b6f;
+                color: #ffffff;
                 padding: 0 25px;
                 font-size: 13px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
+                background-color:rgb(98,24,1,0.5);
             }
 
-            .m-b-md {
-                margin-bottom: 30px;
-            }
         </style>
     </head>
     <body>
@@ -89,6 +104,10 @@
                 <div class="title m-b-md">
                    Travel Jo
                 </div>
+
+                <p class="sub_text">
+                TravelJo It is a tourist site that introduces tourist sites in Jordan, helps the tourist to know the most prominent and important places and know its geographical location, a site whose main objective is to promote tourist places and highlight Jordan in the best way
+                </p>
 
 
             </div>
