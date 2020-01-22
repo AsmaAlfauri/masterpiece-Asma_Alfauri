@@ -1,0 +1,67 @@
+// Fonts
+$family-sans-serif: system-ui,
+-apple-system,
+"Segoe UI",
+"Fira Sans",
+"Droid Sans",
+"Helvetica Neue",
+"Helvetica";
+// Global
+$radius-small: 1px;
+$radius: 1px;
+$radius-large: 1px;
+$text: $grey-dark;
+$text-invert: findColorInvert($text);
+$text-light: $grey;
+$text-strong: $grey-darker;
+// Color
+$black : hsl(0, 0%, 4%) !default;
+$black-bis : hsl(0, 0%, 7%) !default;
+$black-ter : hsl(0, 0%, 14%) !default;
+$grey-darker : hsl(0, 0%, 21%) !default;
+$grey-dark : hsl(0, 0%, 29%) !default;
+$grey : hsl(0, 0%, 48%) !default;
+$grey-light : hsl(0, 0%, 71%) !default;
+$grey-lighter: hsl(0, 0%, 86%) !default;
+$white-ter : hsl(0, 0%, 96%) !default;
+$white-bis : hsl(0, 0%, 98%) !default;
+$white : hsl(0, 0%, 100%) !default;
+$orange: hsl(14, 100%, 53%) !default;
+$yellow: hsl(48, 100%, 67%) !default;
+$green: #28a745;
+$turquoise: hsl(171, 100%, 41%) !default;
+$cyan: hsl(204, 86%, 53%) !default;
+$blue: #1e87f0;
+$purple: hsl(271, 100%, 71%) !default;
+$red: #f0506e;
+// Set your colors
+$primary: $blue;
+$primary-invert: findColorInvert($primary);
+$twitter: #4099FF;
+$twitter-invert: findColorInvert($twitter);
+// Links
+$link: $primary;
+$link-invert: $primary-invert;
+$link-focus-border: $primary;
+// Input
+$input-shadow: none;
+$input-hover-color: none;
+$input-hover-border-color: none;
+$input-focus-box-shadow-size: none;
+$input-focus-box-shadow-color: none;
+// Pagination
+$pagination-border-color: none;
+$pagination-hover-color: $black;
+$pagination-hover-border-color: none;
+$pagination-focus-color: $black;
+$pagination-focus-border-color: none;
+$pagination-shadow-inset: none;
+$pagination-disabled-background-color: none;
+$pagination-disabled-border-color: none;
+// Card
+$card-shadow: none;
+.card {
+    border: 1px solid $grey-lighter;
+}
+
+
